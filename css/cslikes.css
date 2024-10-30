@@ -1,0 +1,42 @@
+.cs-likes-dislikes{
+    display: inline-block;
+}
+.cs-likes-dislikes .cs-like-post,
+.cs-likes-dislikes .cs-dislike-post{
+    display: inline-block;
+    vertical-align: middle;
+    text-decoration: none !important;
+    border: 0 !important;
+    box-shadow: 0 0 !important;
+}
+.cs-likes-dislikes span{
+    display: inline-block;
+    vertical-align: middle;
+}
+.cs-likes-dislikes .cs-like-post{
+    color: #ff007f;
+    margin-right: 20px;
+}
+.cs-likes-dislikes .cs-dislike-post{
+    color: #000;
+}
+.cs-likes-dislikes .like-ico,
+.cs-likes-dislikes .dislike-ico{
+    display: inline-block;
+    line-height: 30px;
+    height: 30px;
+    width: 30px;
+    background: url("../img/icons.png") 0 0 no-repeat;
+}
+.cs-likes-dislikes .like-ico{
+    background-position: 0 0;
+}
+.cs-likes-dislikes .dislike-ico{
+    background-position: 0 -30px;
+}
+.cs-likes-dislikes .like-count,
+.cs-likes-dislikes .dislike-count{
+    display: inline-block;
+    line-height: 20px;
+    margin-left: 10px;
+}
